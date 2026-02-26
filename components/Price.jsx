@@ -15,7 +15,7 @@ export default function Price() {
   const [modalBocce, setModalBocce] = useState(false);
   return (
     <div className="" id="register">
-      <div className=" grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6 max-sm:gap-8 ">
+      <div className="grid grid-cols-2 gap-6 max-sm:gap-8 w-full">
         <PriceCard
           img="/imgs/Football SVG.svg"
           title="Male Football Team"
@@ -27,7 +27,7 @@ export default function Price() {
           href="/registration"
           green
         />
-        <PriceCard
+        {/* <PriceCard
           img="/imgs/Football SVG.svg"
           title="Female Football Team"
           date="3rd July 2026"
@@ -37,10 +37,10 @@ export default function Price() {
           price="£100 (per team)"
           href="/registration"
           pink
-        />
+        /> */}
         <PriceCard
           img="/imgs/Netball SVG.svg"
-          title="Netball Team"
+          title="Mixed Netball Team"
           date="3rd July 2026"
           venue="University of Lancashire Sports Arena"
           startTime="12 noon"
@@ -51,7 +51,7 @@ export default function Price() {
         />
         <PriceCard
           img="/imgs/Rounders SVG.svg"
-          title="Rounders Team"
+          title="Mixed Rounders Team"
           date="3rd July 2026"
           venue="University of Lancashire Sports Arena"
           startTime="11:30am"
@@ -59,20 +59,19 @@ export default function Price() {
           price="£150 (per team)"
           href="/registration"
           purple
+        />{" "}
+        <PriceCard
+          img="/imgs/Bocce SVG.svg"
+          title="Mixed Boccia Team"
+          date="3rd July 2026"
+          venue="University of Lancashire Sports Arena"
+          startTime="12 noon"
+          teamsRequirements="Mixed teams of 3 players"
+          price="£20 per person"
+          href="/registration"
+          yellow
         />
         <div>
-          <PriceCard
-            img="/imgs/Bocce SVG.svg"
-            title="Boccia Team"
-            date="3rd July 2026"
-            venue="University of Lancashire Sports Arena"
-            startTime="12 noon"
-            teamsRequirements="Mixed teams of 3 players"
-            price="£20 per person"
-            href="/registration"
-            yellow
-          />
-
           {/* <p
             className="cursor-pointer text-center animate-bounce uppercase text-xs font-bold text-amber-600"
             onClick={() => setModalBocce(true)}

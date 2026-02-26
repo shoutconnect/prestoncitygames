@@ -80,33 +80,34 @@ export default function Players() {
 
         <div class="py-24 max-sm:py-16">
           <div class="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16 my-10">
-            <div class="flex flex-col items-center text-center gap-8">
+            <div class="flex flex-col items-center text-center gap-8 -mt-20">
               <h1 class="text-6xl max-xl:text-5xl max-md:text-4xl max-xl:leading-[55px] font-title text-slate-900 tracking-wide leading-[65px] mb-4">
-                Thank You
+                Player Registration Form
               </h1>
 
-              <h2 class="text-3xl max-md:text-2xl font-title text-slate-900 tracking-wide mb-8">
+              {/* <h2 class="text-3xl max-md:text-2xl font-title text-slate-900 tracking-wide mb-8">
                 Thank you very much for
                 <span class="text-amber-400"> participating </span>
                 in the 2025 Preston City Games tournament.
-              </h2>
+              </h2> */}
 
               <div class="bg-slate-50 rounded-2xl p-8   w-full mb-8">
-                <h3 class="text-2xl font-title text-slate-900 mb-6 text-center tracking-wide">
+                <h3 class="text-2xl font-title text-slate-900 mb-6 text-center tracking-wide ">
                   Event Details
                 </h3>
                 <div class="text-slate-600 text-lg leading-relaxed space-y-4">
                   <p>
                     The event will take place on{" "}
                     <span class="font-bold text-slate-900">
-                      Friday 20th June
+                      Friday 3rd July 2026
                     </span>{" "}
-                    at UCLAN Sports Arena, Tom Benson Way, Preston PR2 1SG.
+                    at University of Lancashire Sports Arena, Tom Benson Way,
+                    Preston PR2 1SG.
                   </p>
                   <p>
                     Events include Rounders, Netball, Boccia and Football. The
-                    competitions will take place throughout the afternoon, from
-                    12pm - 4.30pm.
+                    competitions will take place throughout the afternoon,
+                    starting at 11am.
                   </p>
                 </div>
               </div>
@@ -179,15 +180,15 @@ export default function Players() {
                     below and complete the player registration form! Please have
                     this completed by{" "}
                     <span class="font-bold text-slate-900">
-                      Thursday 12th June.
+                      Thursday 2nd July 2026.
                     </span>{" "}
                     Thank you and we look forward to seeing you play.
                   </p>
                   <p>
                     Please can all competitors report to{" "}
                     <span class="font-bold text-slate-900">Event HQ</span> on
-                    arrival, at 12 noon. This will be situated on the grass
-                    verge next to the car park.
+                    arrival, this will be situated on the grass verge next to
+                    the car park.
                   </p>
                   <p>
                     All team captains will be required to report to the

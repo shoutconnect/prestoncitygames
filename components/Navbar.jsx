@@ -21,13 +21,25 @@ export default function Navbar() {
             alt="Preston City Games logo"
           />
         </Link>
-        <div className="flex gap-8">
-          {/* <a
+        <div className="flex gap-4">
+          <a
             href="/registration"
-            className="text-neutral-50 hover:text-amber-200 font-semibold"
+            className="text-neutral-50 hover:text-amber-200 font-semibold max-sm:text-sm"
           >
-            Registration
-          </a> */}
+            Team Registration
+          </a>
+          <a
+            href="/players"
+            className="text-neutral-50 hover:text-amber-200 font-semibold max-sm:text-sm"
+          >
+            FAQ & Info
+          </a>{" "}
+          <a
+            href="/players"
+            className="text-neutral-50 hover:text-amber-200 font-semibold max-sm:text-sm"
+          >
+            Player Registration
+          </a>
         </div>
       </div>
     </div>

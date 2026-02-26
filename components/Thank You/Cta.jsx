@@ -90,7 +90,15 @@ export default function ThankYouCta() {
                 Not only will your teams have great fun competing against other
                 businesses and charities, taking part in outdoor activity also
                 enhances wellbeing and mental health.
+                <br />
+                <br />
+                <strong>
+                  Our games for 2026 are football, netball, rounders and boccia.
+                </strong>{" "}
+                On the same day, we also aim to offer opportunities to play
+                badminton, table tennis, tennis, and possibly padel.
               </p>
+
               <span className="font-bold text-slate-500 w-2/3 max-lg:m-auto">
                 ⚠️ Each participating business or charity can enter as many
                 teams as they wish.

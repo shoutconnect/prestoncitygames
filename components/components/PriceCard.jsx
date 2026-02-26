@@ -27,7 +27,7 @@ export default function PriceCard({
     <section
       data-aos="fade-down"
       id="Football"
-      className={`text-center hover:scale-105 max-sm:hover:scale-100`}
+      className={`text-center hover:scale-105 max-sm:hover:scale-100 w-full`}
     >
       <h1
         className={`font-title text-[28px] tracking-wide ${

@@ -77,7 +77,7 @@ export default function TeamRegistration() {
         <div className="px-6 mx-auto max-w-7xl lg:px-8 pt-20 pb-28">
           <div className="flex max-lg:flex-col-reverse max-lg:gap-8 max-lg:items-center items-start">
             <iframe
-              src="https://www.cognitoforms.com/f/42nSYhyX7UC-l4nHKMTwuQ/111"
+              src="https://www.cognitoforms.com/f/42nSYhyX7UC-l4nHKMTwuQ/91"
               height="1035"
               className="w-full"
             ></iframe>
