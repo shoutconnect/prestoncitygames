@@ -12,8 +12,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
+    "@mui/icons-material": "^7.3.8",
+    "@mui/material": "^7.3.8",
     "aos": "^2.3.4",
     "cookies-next": "^2.1.2",
     "next": "13.2.4",
