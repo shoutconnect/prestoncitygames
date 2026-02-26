@@ -559,7 +559,7 @@ export default function Players() {
         </div>
 
         <h1 className="text-4xl font-title text-slate-900 tracking-wide w-full text-center mt-16 mb-8">
-          Player Registration Form
+          Player Participation Form
         </h1>
 
         <div className="px-6 mx-auto max-w-7xl lg:px-8 pt-8 pb-28">
