@@ -25,16 +25,16 @@ export default function Footer() {
       href: "https://www.facebook.com/prestoncitygames",
       icon: <RiFacebookCircleFill className="h-6 w-6" />,
     },
-    {
-      name: "Instagram",
-      href: "https://www.instagram.com/shoutconnecthq/",
-      icon: <RiInstagramFill className="h-6 w-6" />,
-    },
-    {
-      name: "Twitter",
-      href: "https://twitter.com/pr_citygames",
-      icon: <RiTwitterXFill className="h-6 w-6" />,
-    },
+    // {
+    //   name: "Instagram",
+    //   href: "https://www.instagram.com/shoutconnecthq/",
+    //   icon: <RiInstagramFill className="h-6 w-6" />,
+    // },
+    // {
+    //   name: "Twitter",
+    //   href: "https://twitter.com/pr_citygames",
+    //   icon: <RiTwitterXFill className="h-6 w-6" />,
+    // },
   ];
 
   return (

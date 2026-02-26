@@ -85,7 +85,6 @@ export default function ThankYouCta() {
                 <span className="text-amber-400">
                   day of outdoor competitive sport
                 </span>
-                , on Friday, 3rd July 2026!
               </h1>
               <p className="text-slate-500 text-lg">
                 Not only will your teams have great fun competing against other

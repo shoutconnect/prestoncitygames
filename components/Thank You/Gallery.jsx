@@ -82,22 +82,18 @@ export default function ThankYouGallery() {
           loop={true} // Enable loop
           className="mySwiper"
         >
-          {GalleryData.map((item, i) => {
-            return (
-              <div key={i}>
-                <SwiperSlide>
-                  <Image
-                    src={item.original}
-                    width={400}
-                    height={400}
-                    alt="Event picture"
-                    className="object-cover h-full"
-                    priority={true}
-                  />
-                </SwiperSlide>
-              </div>
-            );
-          })}
+          {GalleryData.map((item) => (
+            <SwiperSlide key={item.original}>
+              <Image
+                src={item.original}
+                width={400}
+                height={400}
+                alt="Event picture"
+                className="object-cover h-full"
+                priority={true}
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
       {/* <div className="absolute bottom-0  transform -scale-y-100 w-full rotate-180">
