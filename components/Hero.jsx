@@ -32,8 +32,9 @@ export default function Hero() {
               tournament, Preston City Games.
             </p>
             <p className="font-bold text-lg text-amber-200  w-3/4">
-              Friday 30th June 2023 | UCLan Sports Arena <br />
-              Friday 7th July 2023 | Ashton & Lea Golf Club
+              Friday 3rd July 2026
+              <br />
+              University of Lancashire Sports Arena <br />
             </p>
             <div className="flex mt-6 ">
               <a
@@ -51,7 +52,7 @@ export default function Hero() {
           >
             <div className="relative">
               <div className="relative z-40 h-[450px] w-[450px] max-lg:h-[300px] max-lg:w-[300px]">
-                <a
+                {/* <a
                   href="https://www.linkedin.com/company/prestoncitygames"
                   target="_blank"
                   className="absolute bottom-52 max-lg:bottom-36 -left-12 max-lg:-left-10 z-50 flex items-center justify-center w-10 h-10 bg-white/80 hover:bg-sky-500 text-sky-500 hover:text-white rounded-full shadow-md "
@@ -78,7 +79,7 @@ export default function Hero() {
                   className="absolute z-50 top-8 max-lg:top-2 left-20 max-lg:left-14 flex items-center justify-center w-10 h-10 bg-white/80 hover:bg-blue-600 text-blue-600 hover:text-white rounded-full shadow-md "
                 >
                   <RiFacebookCircleFill className=" text-3xl" />
-                </a>
+                </a> */}
                 <Image
                   src="/imgs/Preston City Games Logo SVG.svg"
                   fill

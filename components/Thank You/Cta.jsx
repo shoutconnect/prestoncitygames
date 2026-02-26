@@ -49,7 +49,7 @@ export default function ThankYouCta() {
           </g>
         </svg>
       </div>
-      <section className="pt-40 px-6 mx-auto max-w-7xl lg:px-8 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 text-slate-500 w-full justify-center text-center">
+      {/* <section className="pt-40 px-6 mx-auto max-w-7xl lg:px-8 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 text-slate-500 w-full justify-center text-center">
         <div className="text-xl font-semibold lg:border-r lg:border-white/20 w-full flex flex-col  gap-8 items-center">
           <div className="bg-amber-400/20 p-6 rounded-full">
             <FaCalendarCheck className="text-xl text-amber-400" />
@@ -72,71 +72,37 @@ export default function ThankYouCta() {
           UCLAN Sports Arena, <br />
           Tom Benson Way, Preston
         </div>
-      </section>
+      </section> */}
       <div className="py-24 max-sm:py-16">
         <div className="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16 my-10">
           <div className="flex max-lg:flex-col-reverse items-center gap-8 max-lg:gap-14">
             <div
               data-aos="zoom-out"
-              className="w-1/2 max-lg:w-full flex flex-col gap-8 max-lg:text-center items-start max-lg:items-center"
+              className="w-1/2 max-lg:w-full flex flex-col gap-8 max-lg:text-center items-start justify-start"
             >
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-slate-500/80 font-semibold ring-1 ring-slate-900/20 hover:ring-slate-900/40">
-                Don’t miss out on our games!{" "}
-              </div>
-              <h1 className="max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title text-slate-900 tracking-wide leading-[75px]">
-                Get your kit on!
-              </h1>
-              <h1 className="text-4xl font-title text-slate-900 tracking-wide w-3/4">
+              <h1 className="text-slate-900 max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title tracking-wide leading-[75px]">
                 Unleash your teams for a{" "}
                 <span className="text-amber-400">
                   day of outdoor competitive sport
                 </span>
+                , on Friday, 3rd July 2026!
               </h1>
-              {/* <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%]">
-                To participate in this year's games, just click on the button
-                below, select your preferred sport, fill out the form and we
-                will contact you.
-              </p> */}{" "}
-              <p className="text-slate-500 text-lg font-normal w-[80%] max-lg:w-[90%] max-sm:mb-16">
-                Preston City Games 2025 is taking place on{" "}
-                <span className="font-bold">
-                  Friday, 20th June 2025 at UCLAN Sports Arena.{" "}
-                </span>{" "}
-                Please submit your team entries using the form below and, if you
-                have any questions, please get in touch with our team:
-                info@shoutconnect.co.uk. <br />
-                <br />
-                We look forward to hearing from you!
-                <br />
-                <br />
-                Entry costs:
-                <br />
-                <span className="font-bold">• Football:</span> £100 + VAT <br />
-                <span className="text-sm">(7-9 players per team)</span>
-                <br />
-                <span className="font-bold">• Netball:</span> £125 + VAT
-                <br />
-                <span className="text-sm"> (7-12 players per team)</span>
-                <br />
-                <span className="font-bold">• Rounders:</span> £150 + VAT
-                <br />
-                <span className="text-sm">(9-15 players per team)</span>
-                <br />
-                <span className="font-bold">• Boccia: </span>TBC <br />
-                <span className="text-sm">(3 per team)</span>
-                <br />
-                <br />
-                <span className="italic">
-                  (Invoices will be sent to the email address on the entry form)
-                </span>
+              <p className="text-slate-500 text-lg">
+                Not only will your teams have great fun competing against other
+                businesses and charities, taking part in outdoor activity also
+                enhances wellbeing and mental health.
               </p>
-              {/* <a
+              <span className="font-bold text-slate-500 w-2/3 max-lg:m-auto">
+                ⚠️ Each participating business or charity can enter as many
+                teams as they wish.
+              </span>
+              <a
                 href="#register"
                 className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-amber-400 hover:bg-gradient-to-r hover:from-amber-400 hover:to-amber-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-amber-400 transition-all ease-out duration-300"
               >
                 <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
                 <span className="relative">Register now</span>
-              </a> */}
+              </a>
             </div>
             <div className="relative w-1/2 max-lg:w-full">
               <div className="flex items-center justify-center space-x-6 lg:space-x-8">
@@ -224,7 +190,7 @@ export default function ThankYouCta() {
           </div>
         </div>
 
-        <div className="pb-24 max-sm:pb-16 px-6 mx-auto max-w-7xl lg:px-8">
+        {/* <div className="pb-24 max-sm:pb-16 px-6 mx-auto max-w-7xl lg:px-8">
           <h1 className="text-4xl font-title text-slate-900 tracking-wide py-10">
             ENTRY FORM 2025
           </h1>
@@ -235,7 +201,7 @@ export default function ThankYouCta() {
             className="w-full"
           ></iframe>
           <script src="https://www.cognitoforms.com/f/iframe.js"></script>
-        </div>
+        </div> */}
       </div>
       <div className="absolute bottom-0  transform -scale-y-100 w-full rotate-180">
         <svg

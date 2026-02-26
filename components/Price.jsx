@@ -19,40 +19,44 @@ export default function Price() {
         <PriceCard
           img="/imgs/Football SVG.svg"
           title="Male Football Team"
-          date="21st June 2024"
-          venue="UCLan Sports Arena"
-          teamsRequirements="Min. 5 players, Max. 8 players"
-          price="£100"
+          date="3rd July 2026"
+          venue="University of Lancashire Sports Arena"
+          startTime="11am"
+          teamsRequirements="7-9 players per team"
+          price="£100 (per team)"
           href="/registration"
           green
         />
         <PriceCard
           img="/imgs/Football SVG.svg"
           title="Female Football Team"
-          date="21st June 2024"
-          venue="UCLan Sports Arena"
-          teamsRequirements="Min. 5 players, Max. 8 players"
-          price="£100"
+          date="3rd July 2026"
+          venue="University of Lancashire Sports Arena"
+          startTime="11am"
+          teamsRequirements="7-9 players per team"
+          price="£100 (per team)"
           href="/registration"
           pink
         />
         <PriceCard
           img="/imgs/Netball SVG.svg"
           title="Netball Team"
-          date="21st June 2024"
-          venue="UCLan Sports Arena"
-          teamsRequirements="Min. 7 players, Max. 11 players"
-          price="£130"
+          date="3rd July 2026"
+          venue="University of Lancashire Sports Arena"
+          startTime="12 noon"
+          teamsRequirements="7-12 players per team"
+          price="£125 (per team)"
           href="/registration"
           orange
         />
         <PriceCard
           img="/imgs/Rounders SVG.svg"
           title="Rounders Team"
-          date="21st June 2024"
-          venue="UCLan Sports Arena"
-          teamsRequirements="Min. 9 players, Max. 15 players"
-          price="£150"
+          date="3rd July 2026"
+          venue="University of Lancashire Sports Arena"
+          startTime="11:30am"
+          teamsRequirements="9-15 players per team"
+          price="£150 (per team)"
           href="/registration"
           purple
         />
@@ -60,8 +64,9 @@ export default function Price() {
           <PriceCard
             img="/imgs/Bocce SVG.svg"
             title="Boccia Team"
-            date="21st June 2024"
-            venue="UCLan Sports Arena"
+            date="3rd July 2026"
+            venue="University of Lancashire Sports Arena"
+            startTime="12 noon"
             teamsRequirements="Mixed teams of 3 players"
             price="£20 per person"
             href="/registration"
@@ -76,7 +81,7 @@ export default function Price() {
             <br /> about the Boccia sport
           </p> */}
         </div>
-        <div>
+        {/* <div>
           <PriceCard
             img="/imgs/Golf SVG.svg"
             title="Golf Team"
@@ -95,7 +100,7 @@ export default function Price() {
             Click here for more information
             <br /> about the Golf Day
           </p>
-        </div>
+        </div> */}
       </div>
 
       {modalGolf && (

@@ -32,18 +32,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="overflow-x-hidden ">
-        {/* <Hero />
-        <About />
-        <Images />
-        <Price />
-        <Venue /> */}
-        <ThankYouHero />
+        <Hero />
+
+        {/* <ThankYouHero /> */}
         <ThankYouCta />
+        {/* <Images /> */}
         <ThankYouAbout />
         <ThankYouGallery />
-        <ThankYouSocialMedia />
+
         {/* <ThankYouForm /> */}
+        {/* <About /> */}
         <NewPrice />
+        <Venue />
+        {/* <ThankYouSocialMedia /> */}
       </main>
     </>
   );

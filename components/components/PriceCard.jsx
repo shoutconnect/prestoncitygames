@@ -12,6 +12,7 @@ export default function PriceCard({
   title,
   date,
   venue,
+  startTime,
   teamsRequirements,
   price,
   href,
@@ -33,16 +34,16 @@ export default function PriceCard({
           green
             ? "text-[rgb(34,197,94)]"
             : purple
-            ? "text-[rgb(192,132,252)]"
-            : orange
-            ? "text-[rgb(251,146,60)]"
-            : pink
-            ? "text-[rgb(236,72,153)]"
-            : blue
-            ? "text-[rgb(125,211,252)]"
-            : yellow
-            ? "text-[rgb(251,191,36)]"
-            : ""
+              ? "text-[rgb(192,132,252)]"
+              : orange
+                ? "text-[rgb(251,146,60)]"
+                : pink
+                  ? "text-[rgb(236,72,153)]"
+                  : blue
+                    ? "text-[rgb(125,211,252)]"
+                    : yellow
+                      ? "text-[rgb(251,191,36)]"
+                      : ""
         } mb-2`}
       >
         {title}
@@ -53,16 +54,16 @@ export default function PriceCard({
         green
           ? "hover:shadow-[rgb(34,197,94)]/20"
           : purple
-          ? "hover:shadow-[rgb(192,132,252)]/20"
-          : orange
-          ? "hover:shadow-[rgb(251,146,60)]/20"
-          : pink
-          ? "hover:shadow-[rgb(236,72,153)]/20"
-          : blue
-          ? "hover:shadow-[rgb(125,211,252)]/20"
-          : yellow
-          ? "hover:shadow-[rgb(251,191,36)]/20"
-          : ""
+            ? "hover:shadow-[rgb(192,132,252)]/20"
+            : orange
+              ? "hover:shadow-[rgb(251,146,60)]/20"
+              : pink
+                ? "hover:shadow-[rgb(236,72,153)]/20"
+                : blue
+                  ? "hover:shadow-[rgb(125,211,252)]/20"
+                  : yellow
+                    ? "hover:shadow-[rgb(251,191,36)]/20"
+                    : ""
       }`}
       >
         <div
@@ -70,16 +71,16 @@ export default function PriceCard({
             green
               ? "bg-[rgb(34,197,94)]"
               : purple
-              ? "bg-[rgb(192,132,252)]"
-              : orange
-              ? "bg-[rgb(251,146,60)]"
-              : pink
-              ? "bg-[rgb(236,72,153)]"
-              : blue
-              ? "bg-[rgb(125,211,252)]"
-              : yellow
-              ? "bg-[rgb(251,191,36)]"
-              : ""
+                ? "bg-[rgb(192,132,252)]"
+                : orange
+                  ? "bg-[rgb(251,146,60)]"
+                  : pink
+                    ? "bg-[rgb(236,72,153)]"
+                    : blue
+                      ? "bg-[rgb(125,211,252)]"
+                      : yellow
+                        ? "bg-[rgb(251,191,36)]"
+                        : ""
           }`}
         >
           <Image
@@ -114,16 +115,16 @@ export default function PriceCard({
                   green
                     ? "rgba(34,197,94,0.7)"
                     : purple
-                    ? "rgba(192,132,252,0.7)"
-                    : orange
-                    ? "rgba(251,146,60,0.7)"
-                    : pink
-                    ? "rgba(236,72,153,0.7)"
-                    : blue
-                    ? "rgba(125,211,252,0.7)"
-                    : yellow
-                    ? "rgba(251,191,36, 0.7)"
-                    : ""
+                      ? "rgba(192,132,252,0.7)"
+                      : orange
+                        ? "rgba(251,146,60,0.7)"
+                        : pink
+                          ? "rgba(236,72,153,0.7)"
+                          : blue
+                            ? "rgba(125,211,252,0.7)"
+                            : yellow
+                              ? "rgba(251,191,36, 0.7)"
+                              : ""
                 }`}
               />
               <use
@@ -134,16 +135,16 @@ export default function PriceCard({
                   green
                     ? "rgba(34,197,94,0.5)"
                     : purple
-                    ? "rgba(192,132,252,0.5)"
-                    : orange
-                    ? "rgba(251,146,60,0.5)"
-                    : pink
-                    ? "rgba(236,72,153,0.5)"
-                    : blue
-                    ? "rgba(125,211,252,0.5)"
-                    : yellow
-                    ? "rgba(251,191,36, 0.5)"
-                    : ""
+                      ? "rgba(192,132,252,0.5)"
+                      : orange
+                        ? "rgba(251,146,60,0.5)"
+                        : pink
+                          ? "rgba(236,72,153,0.5)"
+                          : blue
+                            ? "rgba(125,211,252,0.5)"
+                            : yellow
+                              ? "rgba(251,191,36, 0.5)"
+                              : ""
                 }`}
               />
               <use
@@ -154,16 +155,16 @@ export default function PriceCard({
                   green
                     ? "rgba(34,197,94,0.3)"
                     : purple
-                    ? "rgba(192,132,252,0.3)"
-                    : orange
-                    ? "rgba(251,146,60,0.3)"
-                    : pink
-                    ? "rgba(236,72,153,0.3)"
-                    : blue
-                    ? "rgba(125,211,252,0.3)"
-                    : yellow
-                    ? "rgba(251,191,36, 0.3)"
-                    : ""
+                      ? "rgba(192,132,252,0.3)"
+                      : orange
+                        ? "rgba(251,146,60,0.3)"
+                        : pink
+                          ? "rgba(236,72,153,0.3)"
+                          : blue
+                            ? "rgba(125,211,252,0.3)"
+                            : yellow
+                              ? "rgba(251,191,36, 0.3)"
+                              : ""
                 }`}
               />
               <use
@@ -174,16 +175,16 @@ export default function PriceCard({
                   green
                     ? "rgba(34,197,94)"
                     : purple
-                    ? "rgba(192,132,252)"
-                    : orange
-                    ? "rgba(251,146,60)"
-                    : pink
-                    ? "rgba(236,72,153)"
-                    : blue
-                    ? "rgba(125,211,252)"
-                    : yellow
-                    ? "rgba(251,191,36)"
-                    : ""
+                      ? "rgba(192,132,252)"
+                      : orange
+                        ? "rgba(251,146,60)"
+                        : pink
+                          ? "rgba(236,72,153)"
+                          : blue
+                            ? "rgba(125,211,252)"
+                            : yellow
+                              ? "rgba(251,191,36)"
+                              : ""
                 }`}
               />
             </g>
@@ -196,16 +197,16 @@ export default function PriceCard({
                 green
                   ? "text-[rgb(34,197,94)]"
                   : purple
-                  ? "text-[rgb(192,132,252)]"
-                  : orange
-                  ? "text-[rgb(251,146,60)]"
-                  : pink
-                  ? "text-[rgb(236,72,153)]"
-                  : blue
-                  ? "text-[rgb(125,211,252)]"
-                  : yellow
-                  ? "text-[rgb(251,191,36)]"
-                  : ""
+                    ? "text-[rgb(192,132,252)]"
+                    : orange
+                      ? "text-[rgb(251,146,60)]"
+                      : pink
+                        ? "text-[rgb(236,72,153)]"
+                        : blue
+                          ? "text-[rgb(125,211,252)]"
+                          : yellow
+                            ? "text-[rgb(251,191,36)]"
+                            : ""
               }`}
             >
               Date
@@ -218,16 +219,16 @@ export default function PriceCard({
                 green
                   ? "text-[rgb(34,197,94)]"
                   : purple
-                  ? "text-[rgb(192,132,252)]"
-                  : orange
-                  ? "text-[rgb(251,146,60)]"
-                  : pink
-                  ? "text-[rgb(236,72,153)]"
-                  : blue
-                  ? "text-[rgb(125,211,252)]"
-                  : yellow
-                  ? "text-[rgb(251,191,36)]"
-                  : ""
+                    ? "text-[rgb(192,132,252)]"
+                    : orange
+                      ? "text-[rgb(251,146,60)]"
+                      : pink
+                        ? "text-[rgb(236,72,153)]"
+                        : blue
+                          ? "text-[rgb(125,211,252)]"
+                          : yellow
+                            ? "text-[rgb(251,191,36)]"
+                            : ""
               }`}
             >
               Venue
@@ -240,16 +241,38 @@ export default function PriceCard({
                 green
                   ? "text-[rgb(34,197,94)]"
                   : purple
-                  ? "text-[rgb(192,132,252)]"
-                  : orange
-                  ? "text-[rgb(251,146,60)]"
-                  : pink
-                  ? "text-[rgb(236,72,153)]"
-                  : blue
-                  ? "text-[rgb(125,211,252)]"
-                  : yellow
-                  ? "text-[rgb(251,191,36)]"
-                  : ""
+                    ? "text-[rgb(192,132,252)]"
+                    : orange
+                      ? "text-[rgb(251,146,60)]"
+                      : pink
+                        ? "text-[rgb(236,72,153)]"
+                        : blue
+                          ? "text-[rgb(125,211,252)]"
+                          : yellow
+                            ? "text-[rgb(251,191,36)]"
+                            : ""
+              }`}
+            >
+              Start Time
+            </p>
+            <p>{startTime}</p>
+          </div>
+          <div className="py-4 border-b-2 border-slate-200/80">
+            <p
+              className={`uppercase text-xs font-bold ${
+                green
+                  ? "text-[rgb(34,197,94)]"
+                  : purple
+                    ? "text-[rgb(192,132,252)]"
+                    : orange
+                      ? "text-[rgb(251,146,60)]"
+                      : pink
+                        ? "text-[rgb(236,72,153)]"
+                        : blue
+                          ? "text-[rgb(125,211,252)]"
+                          : yellow
+                            ? "text-[rgb(251,191,36)]"
+                            : ""
               }`}
             >
               Team Requirements
@@ -262,16 +285,16 @@ export default function PriceCard({
                 green
                   ? "text-[#22c55e]"
                   : purple
-                  ? "text-[#c084fc]"
-                  : orange
-                  ? "text-[#fb923c]"
-                  : pink
-                  ? "text-[#ec4899]"
-                  : blue
-                  ? "text-[#7dd3fc]"
-                  : yellow
-                  ? "text-[#fbbf24]"
-                  : ""
+                    ? "text-[#c084fc]"
+                    : orange
+                      ? "text-[#fb923c]"
+                      : pink
+                        ? "text-[#ec4899]"
+                        : blue
+                          ? "text-[#7dd3fc]"
+                          : yellow
+                            ? "text-[#fbbf24]"
+                            : ""
               }`}
             >
               Price to enter
@@ -287,58 +310,58 @@ export default function PriceCard({
             green
               ? "bg-[rgb(34,197,94)]"
               : purple
-              ? "bg-[rgb(192,132,252)]"
-              : orange
-              ? "bg-[rgb(251,146,60)]"
-              : pink
-              ? "bg-[rgb(236,72,153)]"
-              : blue
-              ? "bg-[rgb(125,211,252)]"
-              : yellow
-              ? "bg-[rgb(251,191,36)]"
-              : ""
+                ? "bg-[rgb(192,132,252)]"
+                : orange
+                  ? "bg-[rgb(251,146,60)]"
+                  : pink
+                    ? "bg-[rgb(236,72,153)]"
+                    : blue
+                      ? "bg-[rgb(125,211,252)]"
+                      : yellow
+                        ? "bg-[rgb(251,191,36)]"
+                        : ""
           } hover:bg-gradient-to-r ${
             green
               ? "hover:from-[rgb(34,197,94)]"
               : purple
-              ? "hover:from-[rgb(192,132,252)]"
-              : orange
-              ? "hover:from-[rgb(251,146,60)]"
-              : pink
-              ? "hover:from-[rgb(236,72,153)]"
-              : blue
-              ? "hover:from-[rgb(125,211,252)]"
-              : yellow
-              ? "hover:from-[rgb(251,191,36)]"
-              : ""
+                ? "hover:from-[rgb(192,132,252)]"
+                : orange
+                  ? "hover:from-[rgb(251,146,60)]"
+                  : pink
+                    ? "hover:from-[rgb(236,72,153)]"
+                    : blue
+                      ? "hover:from-[rgb(125,211,252)]"
+                      : yellow
+                        ? "hover:from-[rgb(251,191,36)]"
+                        : ""
           } ${
             green
               ? "hover:to-[rgba(34,197,94)]"
               : purple
-              ? "hover:to-[rgba(192,132,252)]"
-              : orange
-              ? "hover:to-[rgba(251,146,60)]"
-              : pink
-              ? "hover:to-[rgba(236,72,153)]"
-              : blue
-              ? "hover:to-[rgba(125,211,252)]"
-              : yellow
-              ? "hover:to-[rgb(251,191,36)]"
-              : ""
+                ? "hover:to-[rgba(192,132,252)]"
+                : orange
+                  ? "hover:to-[rgba(251,146,60)]"
+                  : pink
+                    ? "hover:to-[rgba(236,72,153)]"
+                    : blue
+                      ? "hover:to-[rgba(125,211,252)]"
+                      : yellow
+                        ? "hover:to-[rgb(251,191,36)]"
+                        : ""
           },0.5)] text-white font-semibold hover:ring-2 hover:ring-offset-2 ${
             green
               ? "hover:ring-[rgb(34,197,94)]"
               : purple
-              ? "hover:ring-[rgb(192,132,252)]"
-              : orange
-              ? "hover:ring-[rgb(251,146,60)]"
-              : pink
-              ? "hover:ring-[rgb(236,72,153)]"
-              : blue
-              ? "hover:ring-[rgb(125,211,252)]"
-              : yellow
-              ? "hover:ring-[rgb(251,191,36)]"
-              : ""
+                ? "hover:ring-[rgb(192,132,252)]"
+                : orange
+                  ? "hover:ring-[rgb(251,146,60)]"
+                  : pink
+                    ? "hover:ring-[rgb(236,72,153)]"
+                    : blue
+                      ? "hover:ring-[rgb(125,211,252)]"
+                      : yellow
+                        ? "hover:ring-[rgb(251,191,36)]"
+                        : ""
           } transition-all ease-out duration-300`}
         >
           <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>

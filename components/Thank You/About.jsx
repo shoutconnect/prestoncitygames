@@ -42,7 +42,7 @@ export default function ThankYouAbout() {
               >
                 <div>
                   <Image
-                    src="/brands/UCLan.png"
+                    src="/brands/University of Lancashire.png"
                     alt="UCLan Logo"
                     width={1000}
                     height={1000}
@@ -78,10 +78,7 @@ export default function ThankYouAbout() {
               <br />
               Preston City Games is a fun, one day sporting festival that pits
               teams of businesses and charities against each other in
-              tournaments of rounders, football, netball and golf. New for 2024
-              is the addition of <span className="font-bold">boccia</span>, a
-              seated bowling game for competitive players, keen to participate
-              in a less physically demanding sport.
+              tournaments of rounders, football, netball and boccia.
               <span className="font-bold">
                 <br />
                 <br />
@@ -92,7 +89,7 @@ export default function ThankYouAbout() {
             </p>
           </div>
         </div>
-        <div
+        {/* <div
           className="text-white text-lg mt-14 flex flex-col items-center gap-14 max-lg:text-center"
           data-aos="fade-up"
         >
@@ -109,7 +106,7 @@ export default function ThankYouAbout() {
               Take a look at our gallery below to see how fantastic the day was.
             </span>
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -100,7 +100,7 @@ export default function ThankYouGallery() {
           })}
         </Swiper>
       </div>
-      <div className="absolute bottom-0  transform -scale-y-100 w-full rotate-180">
+      {/* <div className="absolute bottom-0  transform -scale-y-100 w-full rotate-180">
         <svg
           className="waves"
           xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +137,7 @@ export default function ThankYouGallery() {
             <use xlinkHref="#gentle-wave" x="48" y="7" fill="rgb(15,23,42)" />
           </g>
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }

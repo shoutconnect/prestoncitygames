@@ -9,13 +9,13 @@ export default function Venue() {
   return (
     <div className="py-24 max-sm:py-16" id="venue">
       <div className="px-6 mx-auto max-w-7xl lg:px-8 flex flex-col gap-12">
-        <h1
+        {/* <h1
           data-aos="zoom-out"
           className=" max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-sm:text-4xl max-xl:leading-[65px] max-lg:text-center font-title text-white tracking-wide leading-[75px]"
         >
-          Venues for <br />
+          Venue for <br />
           <span className="text-amber-400">Preston City Games</span>
-        </h1>
+        </h1> */}
         <div className="flex max-sm:flex-col gap-8">
           <div
             data-aos="fade-right"
@@ -29,7 +29,7 @@ export default function Venue() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              alt="Google maps address to UCLAN Sports"
+              alt="Google maps address to Univeristy of Lancashire Sports"
             ></iframe>
           </div>
           <div
@@ -80,14 +80,15 @@ export default function Venue() {
               </svg>
             </div>
             <div className="z-50 flex flex-col gap-2 max-sm:gap-0">
-              <p className="uppercase text-xs font-bold text-neutral-50">
+              {/* <p className="uppercase text-xs font-bold text-neutral-50 -mb-1">
                 Venue
-              </p>
-              <p className="text-4xl max-md:text-3xl max-sm:text-2xl font-title text-neutral-50 tracking-wide">
-                UCLan Sports Arena
+              </p> */}
+              <p className="text-3xl font-title text-neutral-50 tracking-wide">
+                University of Lancashire
+                <br /> Sports Arena
               </p>
             </div>
-            <p className="z-50 text-lg text-slate-600 font-medium">
+            <p className="z-50 text-lg text-slate-600 font-medium leading-6">
               Tom Benson Way,
               <br /> Preston <br /> PR2 1SG
             </p>
@@ -103,7 +104,7 @@ export default function Venue() {
             </div>
           </div>
         </div>
-        <div className="flex max-sm:flex-col-reverse gap-8">
+        {/* <div className="flex max-sm:flex-col-reverse gap-8">
           <div
             data-aos="fade-right"
             className="relative w-1/3 max-xl:w-2/5 max-lg:w-1/2 max-sm:w-full max-sm:h-60 max-sm:text-center text-white flex flex-col justify-between rounded-lg overflow-hidden bg-neutral-50 p-6 hover:scale-105 max-sm:hover:scale-100"
@@ -189,7 +190,7 @@ export default function Venue() {
               alt="Google maps address to UCLAN Sports"
             ></iframe>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

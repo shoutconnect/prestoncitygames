@@ -42,7 +42,7 @@ export default function About() {
               >
                 <div>
                   <Image
-                    src="/brands/UCLan.png"
+                    src="/brands/University of Lancashire.png"
                     alt="UCLan Logo"
                     width={1000}
                     height={1000}
