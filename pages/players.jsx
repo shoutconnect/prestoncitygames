@@ -82,7 +82,7 @@ export default function Players() {
           <div class="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16 my-10">
             <div class="flex flex-col items-center text-center gap-8 -mt-20">
               <h1 class="text-6xl max-xl:text-5xl max-md:text-4xl max-xl:leading-[55px] font-title text-slate-900 tracking-wide leading-[65px] mb-4">
-                Player Registration Form
+                Event Details
               </h1>
 
               {/* <h2 class="text-3xl max-md:text-2xl font-title text-slate-900 tracking-wide mb-8">
@@ -92,9 +92,9 @@ export default function Players() {
               </h2> */}
 
               <div class="bg-slate-50 rounded-2xl p-8   w-full mb-8">
-                <h3 class="text-2xl font-title text-slate-900 mb-6 text-center tracking-wide ">
+                {/* <h3 class="text-2xl font-title text-slate-900 mb-6 text-center tracking-wide ">
                   Event Details
-                </h3>
+                </h3> */}
                 <div class="text-slate-600 text-lg leading-relaxed space-y-4">
                   <p>
                     The event will take place on{" "}
@@ -177,10 +177,10 @@ export default function Players() {
                 <div class="text-slate-600 text-lg leading-relaxed space-y-4">
                   <p>
                     Please can you check each sport's rules and regulations
-                    below and complete the player registration form! Please have
-                    this completed by{" "}
+                    below and complete the player participation form! Please
+                    have this completed by{" "}
                     <span class="font-bold text-slate-900">
-                      Thursday 2nd July 2026.
+                      Friday 26th June 2026.
                     </span>{" "}
                     Thank you and we look forward to seeing you play.
                   </p>
