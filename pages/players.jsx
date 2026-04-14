@@ -481,7 +481,10 @@ export default function Players() {
                   <li>
                     <strong>Teams:</strong>
                     <ul className="ml-6 mt-2 space-y-1">
-                      <li>• Mixed gender</li>
+                      <li>
+                        • Mixed gender (No more than 6 males in the squad and no
+                        more than 5 males on the pitch at any one time)
+                      </li>
                       <li>
                         • Squad numbers can be between 9–12 with a maximum of 9
                         playing at any one time
