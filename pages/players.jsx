@@ -229,8 +229,9 @@ export default function Players() {
                     comfortable clothing which allows movement.
                   </li>
                   <li>
-                    <strong>Venue:</strong> UCLan Sports Arena – Outdoor Grass
-                    Pitches or Indoor sports hall in adverse weather
+                    <strong>Venue:</strong> University of Lancashire Sports
+                    Arena – Outdoor Grass Pitches or Indoor sports hall in
+                    adverse weather
                   </li>
                   <li>
                     <strong>Teams:</strong>
@@ -294,8 +295,8 @@ export default function Players() {
                     coloured tops
                   </li>
                   <li>
-                    <strong>Venue:</strong> UCLan Sports Arena, Outdoor 5 A-Side
-                    astroturf grids
+                    <strong>Venue:</strong> University of Lancashire Sports
+                    Arena, Outdoor 5 A-Side astroturf grids
                   </li>
                   <li>
                     <strong>Teams:</strong>
@@ -375,13 +376,13 @@ export default function Players() {
               <div className="text-gray-700 text-base leading-relaxed">
                 <ul className="space-y-3">
                   <li>
-                    <strong>Kit:</strong> Teams should try to wear some type of
-                    identical kit (t-shirts or dresses), shorts or skirts. Bibs
-                    will be provided on the day
+                    <strong>Kit:</strong> Teams must wear some type of identical
+                    kit (t shirts/dresses), with shorts or skirts. Teams must
+                    provide their own set of bibs for the day.
                   </li>
                   <li>
-                    <strong>Venue:</strong> UCLan Sports Arena, Outdoor Netball
-                    Courts
+                    <strong>Venue:</strong> University of Lancashire Sports
+                    Arena, Outdoor Netball Courts Courts
                   </li>
                   <li>
                     <strong>Teams:</strong>
@@ -390,7 +391,27 @@ export default function Players() {
                         • Mixed – teams of 7 players at least 1 male, squad of
                         up to 12
                       </li>
-                      <li>• Each team must have a captain</li>
+
+                      <li>
+                        • Each team must have a squad of a minimum of 7 and a
+                        maximum of 12 players.{" "}
+                      </li>
+                      <li>
+                        • All players must be over the age of 16 on the day of
+                        the competition.
+                      </li>
+                      <li>
+                        • Mixed teams (male and female) can have a maximum of 6
+                        males in the squad with no more than 3 males on court at
+                        any point during matches.
+                      </li>
+                      <li>
+                        • Male participants must not exceed 1 attacking position
+                        (Goal Attack or Goal Shooter), 1 defending position
+                        (Goal Defence or Goal Keeper) and 1 centre court
+                        (Centre, Wing Attack or Wing Defence) position at any
+                        point during matches.
+                      </li>
                     </ul>
                   </li>
                   <li>
@@ -400,21 +421,35 @@ export default function Players() {
                         • All teams will play each other once or twice depending
                         on the number of teams entered
                       </li>
+
                       <li>
-                        • Length of matches will be determined by the number of
-                        teams entered, but it is likely to be 8 minutes each way
+                        • All teams are entered into groups and will play each
+                        other once.
+                      </li>
+                      <li>
+                        • For semis / final matches, if the score is tied, 2
+                        minutes extra will be played.
+                      </li>
+                      <li>
+                        • If the score is still tied, then it will go to golden
+                        goal.
+                      </li>
+                      <li>
+                        • Length and format of matches will be determined by the
+                        number of teams entered but is likely to be 8 minutes
+                        each way.
                       </li>
                       <li>
                         • Games will be monitored by a central timer and horn
-                        will sound for the start and end of games
+                        will sound for the start and end of games.
                       </li>
                       <li>
                         • The individual games will then be started and ended by
-                        umpires whistle
+                        umpire’s whistle.
                       </li>
                       <li>
-                        • Captains will be required to sign the umpire score
-                        card at the end of each match
+                        • Tournify will be used for fixtures, timings and
+                        results. Link to be circulated.
                       </li>
                     </ul>
                   </li>
@@ -422,7 +457,7 @@ export default function Players() {
                     <strong>Rules:</strong>
                     <ul className="ml-6 mt-2 space-y-1">
                       <li>
-                        • All games will be umpired according to the world
+                        • All games will be umpired according to Official World
                         netball rules and regulations. See{" "}
                         <a
                           href="https://netball.sport/game/the-rules-of-netball"
@@ -434,16 +469,25 @@ export default function Players() {
                         </a>
                       </li>
                       <li>
-                        • Players must ensure that their nails are cut short so
+                        • Players must ensure that their nails are cut shorts so
                         they cannot be seen over the tip of your finger and no
-                        jewellery can be worn at all even if taped
+                        jewellery can be worn at all even if taped.
                       </li>
                       <li>
                         • Substitutions can be made at half time in games, in
-                        case of injuries substitutions can be made however only
-                        the injured player can switch and it has to be a
-                        straight swap
+                        cases of injuries the players a substitution can be made
+                        however only the injured player can switch and it has to
+                        be a straight swop.
                       </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Scoring:</strong> Each game will be:
+                    <ul className="ml-6 mt-2 space-y-1">
+                      <li>• 5 points – win</li>
+                      <li>• 3 points – draw </li>
+                      <li>• 1 point – loss (50% or more of winning score)</li>
+                      <li>• 0 point – loss (less than 50% of winning score)</li>
                     </ul>
                   </li>
                 </ul>
@@ -475,8 +519,8 @@ export default function Players() {
                     same-coloured tops
                   </li>
                   <li>
-                    <strong>Venue:</strong> UCLan Sports Arena – Outdoor Grass
-                    Pitches
+                    <strong>Venue:</strong> University of Lancashire Sports
+                    Arena – Outdoor Grass Pitches
                   </li>
                   <li>
                     <strong>Teams:</strong>
