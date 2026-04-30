@@ -63,8 +63,9 @@ export default function NewPrice() {
           </span>
           <br />
           We are only accepting bookings from full teams this year through the
-          website. If you can’t get together a full team – don’t worry – e-mail
-          info@shoutconnect.co.uk and we’ll combine you with another team.
+          website. If your business/organisation would like to partner with
+          another business/organisation to form a full team, that’s fine. Please
+          e-mail info@shoutconnect.co.uk to let us know.
         </p>
         <Price />
       </div>

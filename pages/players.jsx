@@ -388,11 +388,6 @@ export default function Players() {
                     <strong>Teams:</strong>
                     <ul className="ml-6 mt-2 space-y-1">
                       <li>
-                        • Mixed – teams of 7 players at least 1 male, squad of
-                        up to 12
-                      </li>
-
-                      <li>
                         • Each team must have a squad of a minimum of 7 and a
                         maximum of 12 players.{" "}
                       </li>
@@ -417,11 +412,6 @@ export default function Players() {
                   <li>
                     <strong>Format:</strong>
                     <ul className="ml-6 mt-2 space-y-1">
-                      <li>
-                        • All teams will play each other once or twice depending
-                        on the number of teams entered
-                      </li>
-
                       <li>
                         • All teams are entered into groups and will play each
                         other once.
