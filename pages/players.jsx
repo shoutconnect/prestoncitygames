@@ -566,7 +566,7 @@ export default function Players() {
                           • Please click the button below to download the rules
                           and regulations for rounders.
                           <a
-                            href="/pdfs/Preston_City_Games_Rounders_Rules.jpg"
+                            href="/Preston_City_Games_Rounders_Rules.jpg"
                             download="Preston_City_Games_Rounders_Rules.jpg"
                             className="inline-flex items-center mb-4 px-4 py-2 bg-amber-400 text-white rounded-md hover:bg-amber-300 transition-colors duration-200 font-medium"
                           >
