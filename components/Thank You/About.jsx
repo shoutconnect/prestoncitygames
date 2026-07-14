@@ -89,24 +89,23 @@ export default function ThankYouAbout() {
             </p>
           </div>
         </div>
-        {/* <div
+        <div
           className="text-white text-lg mt-14 flex flex-col items-center gap-14 max-lg:text-center"
           data-aos="fade-up"
         >
           <p className="text-2xl font-bold text-amber-400">
-            Preston City Games 2024 was amazing, we can't wait to meet you all
-            again in 2025!
+            Preston City Games 2026 was amazing — thank you to everyone who
+            took part!
           </p>
           <p className="w-full text-center">
-            Preston City Games brought together businesses and charities for a
-            day of friendly competition. In rounders, football, netball and
-            golf, teams battled it out with sheer determination and competitive
-            spirit.{" "}
+            After a brilliant day of competition, teamwork and plenty of
+            friendly rivalry, businesses and charities battled it out in
+            football, netball, rounders and boccia.{" "}
             <span className="font-bold">
               Take a look at our gallery below to see how fantastic the day was.
             </span>
           </p>
-        </div> */}
+        </div>
       </div>
     </div>
   );

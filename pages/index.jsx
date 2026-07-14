@@ -2,19 +2,19 @@
 // Libraries
 import Head from "next/head";
 // Components
-import Hero from "@/components/Hero";
-import Venue from "@/components/Venue";
-import Price from "@/components/Price";
-import Cta from "@/components/Cta";
-import About from "@/components/About";
-import Images from "@/components/Images";
+// import Hero from "@/components/Hero";
+// import Venue from "@/components/Venue";
+// import Price from "@/components/Price";
+// import Cta from "@/components/Cta";
+// import About from "@/components/About";
+// import Images from "@/components/Images";
 import ThankYouHero from "@/components/Thank You/Hero";
 import ThankYouGallery from "@/components/Thank You/Gallery";
-import ThankYouForm from "@/components/Thank You/Form";
+// import ThankYouForm from "@/components/Thank You/Form";
 import ThankYouAbout from "@/components/Thank You/About";
 import ThankYouCta from "@/components/Thank You/Cta";
 import ThankYouSocialMedia from "@/components/Thank You/SocialMedia";
-import NewPrice from "@/components/NewPrice";
+// import NewPrice from "@/components/NewPrice";
 // Outside data
 
 /////////////////////////////
@@ -32,9 +32,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="overflow-x-hidden ">
-        <Hero />
+        {/* <Hero /> */}
 
-        {/* <ThankYouHero /> */}
+        <ThankYouHero />
         <ThankYouCta />
         {/* <Images /> */}
         <ThankYouAbout />
@@ -42,9 +42,9 @@ export default function Home() {
 
         {/* <ThankYouForm /> */}
         {/* <About /> */}
-        <NewPrice />
-        <Venue />
-        {/* <ThankYouSocialMedia /> */}
+        {/* <NewPrice /> */}
+        {/* <Venue /> */}
+        <ThankYouSocialMedia />
       </main>
     </>
   );

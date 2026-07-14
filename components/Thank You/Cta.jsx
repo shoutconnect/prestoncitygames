@@ -75,40 +75,40 @@ export default function ThankYouCta() {
       </section> */}
       <div className="py-24 max-sm:py-16">
         <div className="px-6 mx-auto max-w-7xl lg:px-8 max-lg:my-16 my-10">
-          <div className="flex max-lg:flex-col-reverse items-center gap-8 max-lg:gap-14">
+          <div className="flex max-lg:flex-col-reverse items-center gap-10 max-lg:gap-20">
             <div
               data-aos="zoom-out"
               className="w-1/2 max-lg:w-full flex flex-col gap-8 max-lg:text-center items-start justify-start"
             >
-              <h1 className="text-slate-900 max-lg:m-auto text-7xl max-xl:text-6xl max-md:text-5xl max-xl:leading-[65px] font-title tracking-wide leading-[75px]">
-                Unleash your teams for a{" "}
-                <span className="text-amber-400">
-                  day of outdoor competitive sport
-                </span>
+              <h1 className="text-slate-900 max-lg:m-auto text-5xl max-md:text-3xl font-title tracking-wide leading-tight">
+                Congratulations to
+                <br /> our <span className="text-amber-400">2026 winners</span>
               </h1>
               <p className="text-slate-500 text-lg">
-                Not only will your teams have great fun competing against other
-                businesses and charities, taking part in outdoor activity also
-                enhances wellbeing and mental health.
-                <br />
-                <br />
-                <strong>
-                  Our games for 2026 are football, netball, rounders and boccia.
-                </strong>{" "}
-                On the same day, we also aim to offer opportunities to play
-                badminton, table tennis, tennis, and possibly padel.
+                After a brilliant day of competition, teamwork and plenty of
+                friendly rivalry, we&apos;re proud to celebrate the teams who
+                came out on top in each sport.
               </p>
-
-              <span className="font-bold text-slate-500 w-2/3 max-lg:m-auto">
-                ⚠️ Each participating business or charity can enter as many
-                teams as they wish.
-              </span>
+              <ul className="text-slate-700 text-lg font-semibold space-y-2 max-lg:mx-auto text-left">
+                <li>🏆 Football: FR Padel</li>
+                <li>🏆 Netball: Team Lancashire</li>
+                <li>🏆 Rounders: Northern Trust</li>
+                <li>🏆 Boccia: Team Lancashire</li>
+              </ul>
+              <p className="text-slate-500 text-lg">
+                A huge well done to every other team that took part too — there
+                was some brilliant competition throughout the day.{" "}
+                <strong>
+                  Interested in taking part next year? Get in touch and
+                  we&apos;d love to hear from you.
+                </strong>
+              </p>
               <a
-                href="#register"
+                href="mailto:info@shoutconnect.co.uk"
                 className="relative rounded py-2 px-10 mb-6 overflow-hidden group bg-amber-400 hover:bg-gradient-to-r hover:from-amber-400 hover:to-amber-300 text-white font-semibold hover:ring-2 hover:ring-offset-2 hover:ring-amber-400 transition-all ease-out duration-300"
               >
                 <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                <span className="relative">Register now</span>
+                <span className="relative">Contact us</span>
               </a>
             </div>
             <div className="relative w-1/2 max-lg:w-full">
@@ -119,8 +119,8 @@ export default function ThankYouCta() {
                 >
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="https://i.ibb.co/FJ5WxyJ/PG0623-112-min.jpg"
-                      alt="People practicing sports"
+                      src="/2026PCG/image00001.jpg"
+                      alt="Preston City Games 2026"
                       width={1000}
                       height={1000}
                       className="h-full w-full object-cover object-center"
@@ -128,8 +128,8 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="https://i.ibb.co/C1MYqR4/PCG-1.jpg"
-                      alt="People practicing sports"
+                      src="/2026PCG/image00018.jpg"
+                      alt="Preston City Games 2026"
                       width={1000}
                       height={1000}
                       className="h-full w-full object-cover object-center"
@@ -142,8 +142,8 @@ export default function ThankYouCta() {
                 >
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="https://i.ibb.co/025BNCj/PCG-5.jpg"
-                      alt="People practicing sports"
+                      src="/2026PCG/image00020.jpg"
+                      alt="Preston City Games 2026"
                       width={1000}
                       height={1000}
                       className="h-full w-full object-cover object-center"
@@ -151,8 +151,8 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="https://i.ibb.co/X7mQzKF/PCG-4.jpg"
-                      alt="People practicing sports"
+                      src="/2026PCG/image00034.jpg"
+                      alt="Preston City Games 2026"
                       width={1000}
                       height={1000}
                       className="h-full w-full object-cover object-center"
@@ -160,8 +160,8 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="https://i.ibb.co/7RwQ9Hf/PG0623-363-min.jpg"
-                      alt="People practicing sports"
+                      src="/2026PCG/image00055.jpg"
+                      alt="Preston City Games 2026"
                       width={1000}
                       height={1000}
                       className="h-full w-full object-cover object-center"
@@ -174,8 +174,8 @@ export default function ThankYouCta() {
                 >
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="https://i.ibb.co/yd3LqqQ/PCG-7.jpg"
-                      alt="People practicing sports"
+                      src="/2026PCG/image00077.jpg"
+                      alt="Preston City Games 2026"
                       width={1000}
                       height={1000}
                       className="h-full w-full object-cover object-center"
@@ -183,8 +183,8 @@ export default function ThankYouCta() {
                   </div>
                   <div className="h-44 w-44 max-xl:h-36 max-xl:w-36 max-lg:w-64 overflow-hidden rounded-lg hover:scale-105">
                     <Image
-                      src="https://i.ibb.co/HVGcmFy/PCG-32.jpg"
-                      alt="People practicing sports"
+                      src="/2026PCG/image00095.jpg"
+                      alt="Preston City Games 2026"
                       width={1000}
                       height={1000}
                       className="h-full w-full object-cover object-center"
